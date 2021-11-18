@@ -9,7 +9,7 @@ The prices and volumes are quoted both in SAR and USD and the date ranges from 7
 To perform time series analysis/forecasting on the obtained dataset, predicting future daily stock pricees of BTC from February 2021
 
 ### Concept
-Most of us would have heard and already know about the cryptocurrency buzz in the online market and most of use would've invested in them, including businesses, both small, medium and large enterprices. But is investing in such volatile currency safe? How can one make sure that investing in these currencies won't put them at a loss in the future. We can't be sure, but we can surely generate as approximate value based on the previous prices. Time series modelling/Forecasting is one way to predict time.
+Most of us would have heard and already know about the cryptocurrency buzz in the online market and most of use would've invested in them, including businesses, both small, medium and large enterprices. But is investing in such volatile currency safe? How can one make sure that investing in these currencies won't put them at a loss in the future. We can't be sure, but we can surely generate as approximate value based on the previous prices. Time series modelling/Forecasting is one way to predict them.
 
 ### About the data
 The dataset originally contains 10 rows and 1000 columns. Data dictionary as follows;
