@@ -9,7 +9,7 @@ The prices and volumes are quoted both in SAR and USD and the date ranges from 7
 To perform time series analysis/forecasting on the obtained dataset, predicting future daily stock pricees of BTC from February 2021
 
 ### Concept
-Most of us would have heard and already know about the cryptocurrency buzz in the online market and most of use would've invested in them, including businesses, both small, medium and large enterprices. But is investing in such volatile currency safe? How can one make sure that investing in these currencies won't put them at a loss in the future. We can't be sure, but we can surely generate as approximate value based on the previous prices. Time series modelling/Forecasting is one way to predict them.
+Most of us would have heard and already know about the cryptocurrency buzz in the online market and most of us would've invested in them, including businesses, both small, medium and large enterprises. But is investing in such volatile currency safe? How can one make sure that investing in these currencies won't put them at a loss in the future? We can't be sure, but we can surely generate as approximate value based on the previous prices. Time series modeling/Forecasting is one way to predict them.
 
 ### About the data
 The dataset originally contains 10 rows and 1000 columns. Data dictionary as follows;
@@ -81,9 +81,9 @@ This results shows that the dataset is non-stationary. Now let me explain this; 
 Now the aims of this project becomes as follows;
 1. Making the data stationary
 2. Identifying the values of p, d and q. These are the most essential parameter for one of time series models which I used for this project, the ARIMA model. p and q values are determined using pacf and acf plots respectively and d can take values of other 0, 1 and 2
-3. Third is build the model and provide the forecasted resulted ie the forecasted prices of BTC starting from Feb 2021
+3. Third is building the model and providing the forecasted resulte ie the forecasted prices of BTC starting from Feb 2021
 
-For this project, I have some time series model for the forecasting, such as ARIMA model, AUTO-ARIMA model, Simple exponential smoothing, Exponential smoothing model, Holt's Linear Trend model.
+For this project, I have used some time series model for the forecasting, such as ARIMA model, AUTO-ARIMA model, Simple exponential smoothing, Exponential smoothing model, Holt's Linear Trend model.
 
 Check out the entire pipeline in the jupyter notebook attached to this repository
 
